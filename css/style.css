@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+  }
+  header{
+    
+    padding: 30px;
+    background-color:rgb(54, 54, 54);
+    position: relative;
+
+  }
+
+
+  
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background-color: whitesmoke;
+    
+}
+#logo{
+   position: absolute;
+    margin-right: 30px;
+}
+  
+
+  nav ul{
+     
+     margin-left: 200px;
+     margin-bottom: 50px;
+     
+     
+  }
+  nav ul li{
+      display:inline;
+      padding: 60px;
+      font-weight: bold;
+      color: gray;
+      
+    
+
+  }
+  
+
+div{
+    margin-left:200px;
+    margin-top:  50px;
+    margin-bottom: 30px;
+
+}
+
+#padding{ margin-left: 170px;
+}
+#padding li{
+    display:inline;
+    padding-left:28px;
+   
+}
+
+#left-colomn{
+    float: left;
+    width: 25%;
+    margin-left:198px ;
+}
+
+#right-colomn{
+    float: right;
+    width: 25%;
+    background-color: whitesmoke;
+    margin-right: 165px;
+    padding: 30px;
+    padding-top: 0%;
+    
+    
+}
+#card{
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+h2{
+    font-weight: bold;
+}
+p{
+    width: 250px;
+    height: 300px;
+    border: 1px dotted black;
+    overflow: scroll;
+    text-align: justify;
+    
+}
+
+button {
+    background-color: rgb(54, 54, 54); 
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    display: inline-block;
+    
+  }
+
+
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(54, 54, 54);
+    margin-top: 30px;
+  }
